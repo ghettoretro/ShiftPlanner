@@ -1,3 +1,21 @@
+/**
+ * @PATH [src/index.css]
+ * @REV [20260226-0905]
+ * @MODULE [ShiftPlanner]
+ * @STATUS [DEV]
+ * @FILETYPE [CSS]
+ * @DESC [Description (max 80 chars)]
+ * @COMPLIANCE [None]
+ * -------------------------------------
+ * @TODO_START
+ * [?] Basic Vite build initialization-created file. Refer to App.css for semantic theming.
+ * @TODO_END
+ * =====================================*/
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;

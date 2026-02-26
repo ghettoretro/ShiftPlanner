@@ -1,8 +1,74 @@
+/**
+ * @PATH [src/App.css]
+ * @REV [20260226-0856]
+ * @MODULE [ShiftPlanner]
+ * @STATUS [DEV]
+ * @FILETYPE [CSS]
+ * @DESC [Tailwind Style file.]
+ * @COMPLIANCE [""]
+ * -------------------------------------
+ * @TODO_START
+ * [?] Basic Vite build initialization-created file.
+ * [?] Absorb dark theme below as gospel, due to semantic theming of components. 
+ * @TODO_END
+ * =====================================*/
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+}
+
+.dark {
+  /* --- THIS IS GOSPEL --- */
+  /* --- Surface --- */
+  --color-surface-primary: #1a1a1cfb;
+  --color-surface-secondary: #27272ad2;
+  --color-surface-tertiary: #3f3f46;
+  --color-surface-variant: #350909; /* --- need to assign color --- */
+  --color-surface-inverse: #e0e0e0; /* --- need to assign color --- */
+  --color-surface-popover: #27272a; /* --- need to assign color --- */
+
+  /* --- Text --- */
+  --font-family: 'Roboto', sans-serif;
+  --color-text-primary: #f4f4f5;
+  --color-text-secondary: #a1a1aa;
+  --color-text-tertiary: #71717a;
+
+  /* --- Border --- */
+  --color-border-primary: #313135e9;
+  --color-border-secondary: #52525b;
+  --color-border-tertiary: #a1a1aa; /* --- need to assign color --- */
+
+  /* --- Accent --- */
+  --color-accent-primary: #b80b0be1;
+  --color-accent-secondary: #44403c;
+  --color-accent-tertiary: #475569; /* --- need to assign color --- */
+  --color-accent-hover: #475569; /* --- need to assign color --- */
+
+  /* --- Node Card --- */
+  /* Dark theme Node accents are slightly more saturated */
+  --color-card-surface: #1f1f23;
+  --color-node-line: #b91c1c;
+  --color-accent-trigger: #8b5cf6; /* Violet 500 */
+  --color-accent-action: #14b8a6;  /* Teal 500 */
+  --color-accent-prompt: #22c55e;  /* Green 500 */
+  --color-accent-logic: #f97316;   /* Orange 500 */
+  --color-accent-human: #ec4899;   /* Pink 500 */
+  --color-accent-data: #3b82f6;    /* Blue 500 */
+
+  --color-text-warning: #9ca3af; /* --- Would be going on a yellow/orange background --- */
+  --color-text-success: #9ca3af; /* --- Would be going on a green background --- */
+  --color-text-error: #9ca3af; /* --- Would be going on a red background --- */
+  --color-surface-positive: #059669;
+  --color-surface-destructive: #c41c1ca8;
+  --color-surface-informational: #0285c7cb;
+  --color-surface-navigational: #4B5563;
+  --color-surface-neutral: #6782a7;
+  --color-surface-warning: #f59e0b;
+  --color-surface-error: #ef4444;
+  --color-surface-success: ##22c55e;
 }
 
 .logo {
