@@ -1,5 +1,5 @@
 /**
- * @PATH [src/Checkbox.jsx]
+ * @PATH [src/components/Checkbox.jsx]
  * @REV [20260226-0901]
  * @MODULE [ShiftPlanner]
  * @STATUS [DEV]

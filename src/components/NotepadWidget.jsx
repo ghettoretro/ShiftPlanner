@@ -1,5 +1,5 @@
 /**
- * @PATH [src/NotepadWidget.jsx]
+ * @PATH [src/components/NotepadWidget.jsx]
  * @REV [20260226-0914]
  * @MODULE [ShiftPlanner]
  * @STATUS [DEV]

@@ -1,5 +1,5 @@
 /**
- * @PATH [src/MainLayout.jsx]
+ * @PATH [src/components/MainLayout.jsx]
  * @REV [20260226-0908]
  * @MODULE [ShiftPlanner]
  * @STATUS [DEV]
@@ -21,9 +21,8 @@ import { useEffect } from 'react'
 import { useApp } from '../../stores/AppProvider' // Not sure if this works with how we are planning?
 import { PrimaryNavbar } from './PrimaryNavbar'
 import { Sidebar } from '../layouts/Sidebar' // Remove
-import { PrintHeader } from '../shared/PrintHeader' // Remove
 
-export const MainLayout = ({ children, headerConfig, headerActions }) => { 
+export const MainLayout = ({ headerConfig, headerActions }) => { 
     const { isSidebarPinned } = useApp(); // Remove
 
     // Change to Reflect Date only
@@ -50,8 +49,6 @@ export const MainLayout = ({ children, headerConfig, headerActions }) => {
                         className="flex-1 overflow-y-auto main-content-scrollable p-0 transition-all duration-300"
                         style={{ marginLeft: isSidebarPinned ? '64px' : '20px' }}
                     >
-                        <PrintHeader />
-                        {children}
                     </main>
 
                 </div>

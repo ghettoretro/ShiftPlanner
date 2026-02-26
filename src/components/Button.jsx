@@ -1,5 +1,5 @@
 /**
- * @PATH [src/Button.jsx]
+ * @PATH [src/components/Button.jsx]
  * @REV [20260226-0857]
  * @MODULE [ShiftPlanner]
  * @STATUS [DEV]

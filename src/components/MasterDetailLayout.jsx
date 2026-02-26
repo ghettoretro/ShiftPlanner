@@ -1,5 +1,5 @@
 /**
- * @PATH [src/MasterDetailLayout.jsx]
+ * @PATH [src/components/MasterDetailLayout.jsx]
  * @REV [20260226-0910]
  * @MODULE [ShiftPlanner]
  * @STATUS [DEV

@@ -1,5 +1,5 @@
 /**
- * @PATH [src/FormField.jsx]
+ * @PATH [src/components/FormField.jsx]
  * @REV [20260226-0902]
  * @MODULE [ShiftPlanner]
  * @STATUS [DEV]

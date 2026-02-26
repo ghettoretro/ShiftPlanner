@@ -14,8 +14,8 @@
  * =====================================*/
 
 import { useState, useEffect } from 'react'
-import { createWorkOrder, createTech } from './models'
-import './App.css'
+import { createWorkOrder, createTech } from './schema/models'
+import './styles/App.css'
 
 // Simple storage key
 const STORAGE_KEY = 'shift_runner_v1'
@@ -72,7 +72,7 @@ function App() {
   const totalCapacity = techs.reduce((sum, t) => sum + (Number(t.hoursAvailable) || 0), 0)
   const remainingHours = totalCapacity - totalAssignedHours
 
-  return (
+  return ( // will need to add MainLayout
     <div style={{ padding: '20px', fontFamily: 'sans-serif' }}>
       <h2>Shift Turnover - {new Date().toLocaleDateString()}</h2>
       

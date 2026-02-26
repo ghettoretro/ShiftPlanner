@@ -1,5 +1,5 @@
 /**
- * @PATH [src/CalendarDayView.jsx]
+ * @PATH [src/components/CalendarDayView.jsx]
  * @REV [20260226-0928]
  * @MODULE [ShiftPlanner]
  * @STATUS [DEV]

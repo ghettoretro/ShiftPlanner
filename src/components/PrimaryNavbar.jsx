@@ -1,5 +1,5 @@
 /**
- * @PATH [src/PrimaryNavbar.jsx]
+ * @PATH [src/components/PrimaryNavbar.jsx]
  * @REV [20260225-0916]
  * @MODULE [ShiftPlanner]
  * @STATUS [DEV]

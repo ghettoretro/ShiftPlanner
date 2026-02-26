@@ -1,5 +1,5 @@
 /**
- * @PATH [src/RadioCardGroup.jsx]
+ * @PATH [src/components/RadioCardGroup.jsx]
  * @REV [20260219-2320]
  * @MODULE [ShiftPlanner]
  * @STATUS [DEV]

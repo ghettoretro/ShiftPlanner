@@ -1,5 +1,5 @@
 /**
- * @PATH [src/models.js]
+ * @PATH [src/schema/models.js]
  * @REV [20260226-0911]
  * @MODULE [ShiftPlanner]
  * @STATUS [DEV]

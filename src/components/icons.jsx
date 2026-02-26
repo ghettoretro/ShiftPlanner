@@ -1,5 +1,5 @@
 /**
- * @PATH [src/icons.jsx]
+ * @PATH [src/components/icons.jsx]
  * @REV [20260226-0904]
  * @MODULE [ShiftPlanner]
  * @STATUS [DEV]
